@@ -1,4 +1,4 @@
- <?php
+<?php
 
 /* Files Gallery 0.8.4
 www.files.gallery | www.files.gallery/docs/ | www.files.gallery/docs/license/
@@ -1958,7 +1958,7 @@ get_header($init_path ? _basename($init_path) : '/', 'menu-' . ($menu_exists ? '
         <div id="topbar-info" class="info-hidden"></div>
       </nav>
       <!-- files list container -->
-      <div id="files-container"><div id="files" class="list files-<?php echo config::$config['layout']; ?>"></div></div> 
+      <div id="files-container"><div id="files" class="list files-<?php echo config::$config['layout']; ?>"></div></div>
     </main>
 <?php if($menu_exists) { ?>
     <aside id="sidebar">
